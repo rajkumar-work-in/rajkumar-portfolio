@@ -99,7 +99,7 @@ When the backend is deployed, replace that URL with the real one (e.g. `https://
 1. Validates name, email, and message on the client.
 2. Sends a `POST` request to `${API_BASE_URL}/contact` with:
    ```json
-   { "name": "...", "email": "...", "subject": "Portfolio Contact", "message": "..." }
+   { "name": "...", "email": "...", "message": "..." }
    ```
 3. Falls back to opening a pre-filled `mailto:` link automatically if that request fails — so the form keeps working even before the backend exists.
 
@@ -111,4 +111,4 @@ Already deployed on Vercel. Because everything uses relative paths (`css/style.c
 
 ---
 
-© Rajkumar J. Built with HTML, CSS & JavaScript.
+© Rajkumar J. Designed & developed with care.
