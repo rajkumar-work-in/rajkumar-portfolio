@@ -2,7 +2,7 @@
 
 The personal developer portfolio of **Rajkumar J**, a Java Full Stack Developer. Built as a fast, dependency-free static site — plain HTML, CSS, and JavaScript, no build step required.
 
-Live site: https://rajkumar-portfolio-one.vercel.app
+Live site: https://rajkumar-portfolio-delta-amber.vercel.app
 
 ## Features
 
