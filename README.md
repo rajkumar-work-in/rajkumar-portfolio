@@ -31,8 +31,8 @@ rajkumar-portfolio/
 ├── js/
 │   └── script.js         → all behavior (theme toggle, rendering, contact form, etc.)
 ├── assets/
-│   ├── images/           → currently empty — see "Adding images" below
-│   └── icons/            → currently empty — all icons are inline SVG in the HTML
+│   ├── images/           → currently empty — see "Adding images" below (only sample image inside)
+│   └── icons/            → currently empty — all icons are inline SVG in the HTML (only sample icon inside)
 ├── resume.pdf            → downloadable resume (replace this file directly)
 └── README.md
 ```
