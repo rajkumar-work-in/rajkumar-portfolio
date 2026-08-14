@@ -13,15 +13,9 @@ const CONFIG = {
 
 /* ============================================================
    BACKEND API CONFIGURATION
-   ============================================================
-   Update this URL when the Spring Boot backend is deployed.
-   Until then, the contact form below tries this endpoint first and
-   falls back to a mailto link automatically if it can't be reached —
-   so the site keeps working with zero backend dependency.
    ============================================================ */
 const API_BASE_URL = 'http://localhost:8080/api';
 
-/* DSA stats — update as practice continues. Use '—' until you have a real number. */
 const DSA_STATS = {
   solved: '-',
   easy: '-',
@@ -119,7 +113,7 @@ const PROJECTS = [
     architecture: 'Content Data\n↓\nSection Components\n↓\nLayout Shell\n↓\nRendered Page',
     learned: 'Structuring content as data rather than hard-coded markup, and how much accessibility and performance work is invisible when done well.',
     github: 'https://github.com/rajkumar-work-in',
-    demo: 'https://rajkumar-portfolio-one.vercel.app'
+    demo: 'https://rajkumar-portfolio-delta-amber.vercel.app'
   },
 ];
 
@@ -178,8 +172,7 @@ document.getElementById('emailText').textContent = CONFIG.email;
 document.getElementById('emailFooterLink').href = `mailto:${CONFIG.email}`;
 
 // Resume links — served from the site itself, so the browser downloads the
-// PDF directly instead of opening Google Drive. Replacing resume.pdf later
-// needs no HTML/JS changes since every link reads from CONFIG.resumePath.
+// PDF directly.
 ['resumeNavLink', 'resumeNavLinkMobile', 'heroResumeLink', 'footerResumeLink'].forEach(id => {
   const el = document.getElementById(id);
   if (!el) return;
@@ -416,8 +409,7 @@ contactForm.addEventListener('submit', async (e) => {
     showStatus("Message sent — I'll get back to you soon.", 'ok');
     contactForm.reset();
   } catch (err) {
-    // Expected until the Spring Boot backend above is live — fall back to
-    // opening the visitor's email client with the message pre-filled.
+    // Expected until the Spring Boot backend is live.
     openMailtoFallback(name, email, message);
     showStatus("The contact API isn't live yet, so I've opened your email client instead.", 'ok');
     contactForm.reset();
