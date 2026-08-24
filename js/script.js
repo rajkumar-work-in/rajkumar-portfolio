@@ -35,7 +35,7 @@ const SKILLS = {
 
 const LEARNING = [
   { name: 'Advanced Spring Boot', status: 'Building' },
-  { name: 'Spring Security', status: 'Learning' },
+  { name: 'Spring Security', status: 'Building' },
   { name: 'System Design', status: 'Learning' },
   { name: 'Docker', status: 'Building' },
   { name: 'Cloud Architecture', status: 'Exploring' },
