@@ -17,10 +17,10 @@ const CONFIG = {
 const API_BASE_URL = 'http://localhost:8080/api';
 
 const DSA_STATS = {
-  solved: '-',
-  easy: '-',
-  medium: '-',
-  hard: '-'
+  solved: '28',
+  easy: '11',
+  medium: '12',
+  hard: '5'
 };
 const DSA_CATEGORIES = ['Arrays','Strings','Hashing','Two Pointers','Sliding Window','Stack','Queue','Binary Search','Linked List','Trees','Graphs','Dynamic Programming'];
 
