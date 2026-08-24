@@ -75,32 +75,6 @@ const PROJECTS = [
     demo: 'https://dksalon.vercel.app'
   },
   {
-    id: 'ecommerce',
-    name: 'E-Commerce Platform',
-    type: 'Full Stack Web Application — Flagship Project',
-    status: 'building',
-    description: 'A full-stack e-commerce platform and my main long-term project — built to demonstrate authentication, product management, and order handling end to end.',
-    problem: 'Most portfolio e-commerce demos stop at a product listing page. I wanted a project that models the parts that actually make an e-commerce system hard: auth, state, and data consistency.',
-    solution: 'A modular Spring Boot backend with a React and TypeScript frontend, built module by module so each piece is functional before the next is started.',
-    stack: ['React','TypeScript','Tailwind CSS','Redux','Java','Spring Boot','Spring Security','REST APIs','JPA','Hibernate','MySQL / PostgreSQL','Docker'],
-    features: [
-      'Authentication — Building',
-      'User management — Building',
-      'Product management — Planned',
-      'Categories — Planned',
-      'Product search & filtering — Planned',
-      'Shopping cart — Planned',
-      'Wishlist — Planned',
-      'Orders — Planned',
-      'Payments — Planned',
-      'Admin dashboard — Planned'
-    ],
-    architecture: 'React\n↓\nAPI Layer\n↓\nSpring Boot\n↓\nController\n↓\nService\n↓\nRepository\n↓\nDatabase',
-    learned: 'This project is in progress, so the biggest lessons so far are around planning module boundaries up front and being disciplined about not marking something "done" until it actually is.',
-    github: 'https://github.com/rajkumar-work-in',
-    demo: 'TODO: ADD REAL INFORMATION'
-  },
-  {
     id: 'portfolio',
     name: 'Developer Portfolio',
     type: 'Frontend Project',
@@ -115,6 +89,21 @@ const PROJECTS = [
     github: 'https://github.com/rajkumar-work-in',
     demo: 'https://rajkumar-portfolio-delta-amber.vercel.app'
   },
+  {
+    id: 'ecommerce',
+    name: 'E-Commerce Platform',
+    type: 'Full Stack Web Application — Flagship Project',
+    status: 'building',
+    description: 'A full-stack e-commerce platform and my main long-term project — built to demonstrate authentication, product management, and order handling end to end.',
+    problem: 'Most portfolio e-commerce demos stop at a product listing page. I wanted a project that models the parts that actually make an e-commerce system hard: auth, state, and data consistency.',
+    solution: 'A modular Spring Boot backend with a React and TypeScript frontend, built module by module so each piece is functional before the next is started.',
+    stack: ['React','TypeScript','Tailwind CSS','Redux','Java','Spring Boot','Spring Security','REST APIs','JPA','Hibernate','MySQL / PostgreSQL','Docker'],
+    features: ['Authentication — Building','User management — Building','Product management — Planned','Categories — Planned','Product search & filtering — Planned','Shopping cart — Planned','Wishlist — Planned','Orders — Planned','Payments — Planned','Admin dashboard — Planned'],
+    architecture: 'React\n↓\nAPI Layer\n↓\nSpring Boot\n↓\nController\n↓\nService\n↓\nRepository\n↓\nDatabase',
+    learned: 'This project is in progress, so the biggest lessons so far are around planning module boundaries up front and being disciplined about not marking something "done" until it actually is.',
+    github: 'https://github.com/rajkumar-work-in',
+    demo: 'TODO: ADD REAL INFORMATION'
+  }
 ];
 
 /* ============================================================
