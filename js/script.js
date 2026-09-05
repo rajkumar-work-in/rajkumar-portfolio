@@ -78,7 +78,7 @@ const PROJECTS = [
     id: 'srihari-electricals',
     name: 'Sri Hari Electricals',
     type: 'Freelance Client Project — Business Website',
-    status: 'completed',
+    status: 'live',
     description: 'A responsive business website built for a real hardware, electrical, and plumbing supply store in Panruti, Tamil Nadu — serving as a digital storefront with direct WhatsApp and call-based customer inquiries.',
     problem: 'The client needed an online presence to build trust and let customers browse product categories before visiting — but had no need for e-commerce, accounts, or order management. A typical full-stack build would have added unnecessary cost, hosting overhead, and maintenance burden for a business that just needed a fast, professional digital visiting card.',
     solution: 'A fully static, frontend-only site built with React, Vite, and Tailwind CSS, deployed on Vercel. Instead of a traditional contact form and backend, customer inquiries route directly through pre-filled WhatsApp links per product category — matching how the client\'s customers actually prefer to communicate, while keeping the site fast, secure, and free of server costs.',
@@ -94,8 +94,8 @@ const PROJECTS = [
         'Custom branded favicon — Complete',
     ],
     architecture: 'React (Vite)\n↓\nReact Router (client-side routing)\n↓\nStatic Pages (Home, Products, Brands, About, Contact)\n↓\nDirect WhatsApp/Call links (no backend)\n\n(Deployed as a static SPA on Vercel with SPA rewrite rules for direct route access)',
-    learned: 'The key decision on this project was knowing when *not* to build something — recognizing that a backend and database would have added complexity without adding value for this client\'s actual needs. Scoping the architecture correctly (static site + WhatsApp-first contact flow) delivered a faster, cheaper, and more maintainable result than a conventional full-stack approach.',
-    github: 'https://github.com/rajkumar-work-in/srihari-electricals-frontend',
+    learned: 'The key decision on this project was knowing when not to build something — recognizing that a backend and database would have added complexity without adding value for this client\'s actual needs. Scoping the architecture correctly (static site + WhatsApp-first contact flow) delivered a faster, cheaper, and more maintainable result than a conventional full-stack approach.',
+    github: 'https://github.com/rajkumar-work-in',
     demo: 'https://srihari-electricals.vercel.app'
   },
   {
