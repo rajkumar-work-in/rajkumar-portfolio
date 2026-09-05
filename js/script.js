@@ -75,6 +75,30 @@ const PROJECTS = [
     demo: 'https://dksalon.vercel.app'
   },
   {
+    id: 'srihari-electricals',
+    name: 'Sri Hari Electricals',
+    type: 'Freelance Client Project — Business Website',
+    status: 'completed',
+    description: 'A responsive business website built for a real hardware, electrical, and plumbing supply store in Panruti, Tamil Nadu — serving as a digital storefront with direct WhatsApp and call-based customer inquiries.',
+    problem: 'The client needed an online presence to build trust and let customers browse product categories before visiting — but had no need for e-commerce, accounts, or order management. A typical full-stack build would have added unnecessary cost, hosting overhead, and maintenance burden for a business that just needed a fast, professional digital visiting card.',
+    solution: 'A fully static, frontend-only site built with React, Vite, and Tailwind CSS, deployed on Vercel. Instead of a traditional contact form and backend, customer inquiries route directly through pre-filled WhatsApp links per product category — matching how the client\'s customers actually prefer to communicate, while keeping the site fast, secure, and free of server costs.',
+    stack: ['React', 'Vite', 'JavaScript', 'Tailwind CSS', 'React Router', 'Lucide React', 'Vercel'],
+    features: [
+        'Multi-page routing (Home, Products, Brands, About, Contact) — Complete',
+        'Auto-rotating hero image slider — Complete',
+        'Category-wise WhatsApp enquiry links — Complete',
+        'Animated scrolling brand marquee — Complete',
+        'Embedded map with store location & hours — Complete',
+        'Fully responsive, mobile-first design — Complete',
+        'SEO meta tags for local search visibility — Complete',
+        'Custom branded favicon — Complete',
+    ],
+    architecture: 'React (Vite)\n↓\nReact Router (client-side routing)\n↓\nStatic Pages (Home, Products, Brands, About, Contact)\n↓\nDirect WhatsApp/Call links (no backend)\n\n(Deployed as a static SPA on Vercel with SPA rewrite rules for direct route access)',
+    learned: 'The key decision on this project was knowing when *not* to build something — recognizing that a backend and database would have added complexity without adding value for this client\'s actual needs. Scoping the architecture correctly (static site + WhatsApp-first contact flow) delivered a faster, cheaper, and more maintainable result than a conventional full-stack approach.',
+    github: 'https://github.com/rajkumar-work-in/srihari-electricals-frontend',
+    demo: 'https://srihari-electricals.vercel.app'
+  },
+  {
     id: 'portfolio',
     name: 'Developer Portfolio',
     type: 'Frontend Project',
@@ -88,6 +112,30 @@ const PROJECTS = [
     learned: 'Structuring content as data rather than hard-coded markup, and how much accessibility and performance work is invisible when done well.',
     github: 'https://github.com/rajkumar-work-in',
     demo: 'https://rajkumar-portfolio-delta-amber.vercel.app'
+  },
+  {
+    id: 'slotsecure',
+    name: 'SlotSecure',
+    type: 'Full Stack Web Application — Multi-Vendor Booking Platform',
+    status: 'building',
+    description: 'A concurrency-safe, multi-vendor appointment booking platform built day-by-day, feature by feature, to solve real scheduling problems businesses face.',
+    problem: 'Most booking-app demos ignore what actually breaks in production — two users grabbing the same slot at the same time, stale UI after a booking, and vendors needing isolated schedules. I wanted a project that tackles double-booking and real-time consistency head on.',
+    solution: 'A Spring Boot backend with JWT-based security, optimistic locking to prevent double-booking, and WebSocket-driven real-time slot updates, paired with a React frontend — built incrementally, one working feature at a time.',
+    stack: ['React', 'JavaScript', 'Tailwind CSS', 'Java', 'Spring Boot', 'Spring Security', 'JWT', 'WebSocket', 'REST APIs', 'JPA', 'Hibernate', 'MySQL'],
+    features: [
+        'Authentication (JWT) — Building',
+        'Multi-vendor accounts — Planned',
+        'Slot management — Planned',
+        'Concurrency-safe booking (optimistic locking) — Planned',
+        'Real-time slot updates (WebSocket) — Planned',
+        'Booking history — Planned',
+        'Vendor dashboard — Planned',
+        'Notifications — Planned',
+    ],
+    architecture: 'React\n↓\nAPI Layer\n↓\nSpring Boot\n↓\nController\n↓\nService\n↓\nRepository\n↓\nDatabase\n\n(+ WebSocket channel for real-time slot updates)',
+    learned: 'This project is in progress. So far the biggest lesson is around handling concurrency correctly — using optimistic locking to prevent two users from booking the same slot, rather than assuming a simple database write is enough.',
+    github: 'https://github.com/rajkumar-work-in',
+    demo: 'TODO: ADD REAL INFORMATION'
   },
   {
     id: 'ecommerce',
